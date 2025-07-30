@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dashboard = React.lazy(() => import('dashboard/Dashboard'));
+const Dashboard = React.lazy(() => import('dashboard/src/Dashboard'));
 
 export default function App() {
   return (

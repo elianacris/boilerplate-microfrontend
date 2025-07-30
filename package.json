@@ -1,12 +1,17 @@
 {
   "name": "boilerplate-microfrontend",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build"
   },
   "devDependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
     "turbo": "^1.10.0"
   }
 }
